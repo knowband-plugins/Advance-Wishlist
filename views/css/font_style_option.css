@@ -1,0 +1,96 @@
+
+
+.font-style-options{
+    position:relative;
+    width:auto;
+}
+
+.font-options-list{
+    margin:0;
+    padding: 2px 5px;
+    width:260px;
+}
+
+.font-style{
+    display: inline;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+.style-options{
+    background-repeat: no-repeat;
+    width:29px;
+    height:29px;
+    position:relative;
+}
+
+.style-options:hover{
+    cursor: pointer;
+}
+
+.bold-option{
+    background-image: url('../img/fonts_style/bold-icon.png');    
+}
+
+.italic-option{
+    background-image: url('../img/fonts_style/italic-icon.png');   
+}
+
+
+.underline-option{
+    background-image: url('../img/fonts_style/underline-icon.png');    
+}
+
+.font-style-selected{
+    background-position: 0 -29px;
+}
+
+.size-option{
+    width:62px;
+    height:29px !important;
+    position:relative;
+}
+
+.font-color-option{
+    background-image: url('../img/fonts_style/font.png');
+    position:relative;
+}
+
+.background-color-option{
+    background-image: url('../img/fonts_style/background.png');
+    position:relative;
+}
+
+.color-display{
+    position: absolute;
+    bottom: 3px;
+    width: 20px;
+    height: 3px;
+    background-color: #ff0;
+    left: 4px;
+}
+
+.velocity-font-style-tooltip{
+    position: absolute;
+    background-color: #222;
+    color: #fff;
+    padding: 3px 5px;
+    top: -21px;
+    left: -2px;
+    z-index: 9;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.velocity-font-style-tooltip-color{
+    position: absolute;
+    background-color: #222;
+    color: #fff;
+    padding: 3px 5px;
+    top: -21px;
+    left: -2px;
+    z-index: 9;
+    border-radius: 3px;
+    font-size: 10px;
+    width:60px;
+}

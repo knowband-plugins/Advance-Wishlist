@@ -1,0 +1,42 @@
+.sfl_shorlist_large_link, .sfl_shorlist_small_link{
+    position: absolute;   
+    z-index: 999;
+    color: #000;    
+    text-align:center;
+}
+
+.sfl_shorlist_small_link{
+    top: 3px;
+    padding: 1px 4px;
+    font-size: 13px;
+    width:100px;
+}
+
+.sfl_shorlist_large_link{
+    top: -1px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 14px;
+    width:96%;
+}
+
+.sfl_shorlist_small_link span:hover, .sfl_shorlist_large_link span:hover{
+    opacity:1;
+    color:#FF5F49;
+}
+
+.sfl_shorlist_large_link span, .sfl_shorlist_small_link span{
+    background-color: #eee;
+    padding: 5px 10px 5px 30px;
+    background-image: url('../img/favourite.png');
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.velsof_buy:hover{
+    color:#fff !important;
+}
+
+
